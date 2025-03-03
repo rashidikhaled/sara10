@@ -853,13 +853,7 @@ export default [
         icon: 'img:subMenu/blackList.svg',
         help: 'black-list/help.pdf',
         nodes: [
-          {
-            id: "1A11DA42-2E80-470F-8CA0-16AA17E01A8A",
-            name: "SendKhaled",
-            title: "SendKhaled",
-            link: "/black-list/send-khaled",
-            icon: "phonelink_lock"
-          },
+
           {
             id: '913DBD99-B9E5-44E1-9F5B-54CB21EAAF8F',
             name: 'SendBlackListRequestsubmission',
