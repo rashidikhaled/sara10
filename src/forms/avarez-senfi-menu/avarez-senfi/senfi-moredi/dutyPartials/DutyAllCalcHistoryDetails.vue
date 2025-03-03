@@ -1,0 +1,244 @@
+<template>
+  <div class="q-mt-md">
+    <div class="duty-session-details row q-col-gutter-md">
+      <div
+        :key="i"
+        class="col-12 col-sm-sm-6 col-md-4 col-lg-3"
+        v-for="(
+          detail, i
+        ) in calcuateHistoryResults.DutySessionHistoryDetailsByYear"
+      >
+        <q-card
+          :style="{ backgroundColor: detail.selected ? '#eef4ff' : '#fff' }"
+          bordered
+          class="duty-session-item"
+          flat
+        >
+          <q-card-section>
+            <!-- <div class="text-body1 text-primary q-mb-xs">
+              <safa-ci-label
+                :value="detail.CI_DutyFormula"
+                ci-name="CI_DutyFormula"
+              />
+            </div> -->
+
+            <div class="flex wrap justify-between">
+              <div class="col-12 col-md-6 q-mb-xs text-grey text-left">
+                تاریخ محاسبه: {{ detail.DateCalc }}
+              </div>
+              <div class="col-12 col-md-6 q-mb-xs text-grey text-left">
+                زمان محاسبه: {{ detail.TimeCalc }}
+              </div>
+            </div>
+          </q-card-section>
+          <q-separator />
+
+          <q-card-actions
+            class="flex justify-between items-center q-py-none q-px-sm"
+          >
+            <div class="col-auto">
+              <q-btn @click="showDetailList(detail)" color="grey" flat size="sm"
+                >مشاهده جزئیات</q-btn
+              >
+            </div>
+          </q-card-actions>
+        </q-card>
+      </div>
+      <safa-popup v-model="showDetailsDialog" title="جزئیات">
+        <!-- <safa-datatable
+                :selectable="false"
+                fit
+                height="100%"
+                :columns="columns"
+                m="r"
+                max-height="100%"
+                minHeight="100%"
+                ref="grid2"
+                v-model="detailHistoryResults.DutySessionHistoryDetails"
+              ></safa-datatable> -->
+        <DutyAllCalcDetails :model="list" />
+      </safa-popup>
+    </div>
+  </div>
+</template>
+<script>
+import baseFormMixin from "src/mixins/baseFormMixin"
+import DutyAllCalcDetails from "./DutyAllCalcDetails"
+import converter from "xml-js"
+
+export default {
+  name: "DutyAllCalculationSessionHeadersDetails",
+  mixins: [baseFormMixin],
+  components: { DutyAllCalcDetails },
+  props: {
+    item: Object,
+    baseNosaziCode: Object,
+    formKey: {
+      type: String,
+      default: "",
+      required: true
+    },
+    title: {
+      type: String,
+      default: "",
+      required: true
+    },
+    name: {
+      type: String,
+      default: "",
+      required: true
+    }
+  },
+  data () {
+    return {
+      calcuateHistoryResults: {
+        DutySessionHistoryDetailsByYear: []
+      },
+      detailHistoryResults: { DutySessionHistoryDetails: [] },
+      historyDetailResult: null,
+      historyResult: null,
+      showDetailsDialog: false,
+      columns: [
+        {
+          field: "CI_DutyFormula",
+          title: "فرمول",
+          editor: "combo",
+          domain: "CI_SaraM1"
+        },
+        {
+          field: "Price",
+          title: "مبلغ"
+        },
+        {
+          field: "DateCalc",
+          title: "تاریخ محاسبه"
+        },
+        {
+          field: "TimeCalc",
+          title: "زمان محاسبه"
+        },
+        {
+          field: "UserName",
+          title: "کاربر"
+        },
+        {
+          field: "CI_DutyPayoffCause",
+          title: "وضعیت",
+          editor: "combo",
+          domain: "CI_SaraM1"
+        },
+        {
+          field: "",
+          title: "دسته اطلاعاتی"
+        },
+        {
+          field: "",
+          title: "شماره بازدید"
+        }
+      ],
+      list: []
+    }
+  },
+  mounted () {
+    this.getDutyCalculateHistoryDetailsByYaer()
+  },
+
+  methods: {
+    getDutyCalculateHistoryDetailsByYaer () {
+      this.showLoading()
+      let data = {
+        pNid: this.item.NidFK,
+        pSysCiDutyType: 2,
+        pDutyYear: this.item.CI_DutyYear
+      }
+      this.$services.SB.getDutyCalculateHistoryDetailsByYaer(data, { config: { District: this.baseNosaziCode.District } })
+        .then(async ({ data }) => {
+          this.historyResult = this.getResponse(data)
+
+          if (this.historyResult.success) {
+            this.calcuateHistoryResults = this.historyResult.data
+            await this.log({
+              action: this.logActions.view,
+              bizCode: '',
+              bizCodeTitle: '',
+              saveDesc: `بارگذاری اطلاعات در فرم ${this.title} انجام گردید.`
+            })
+          }
+        })
+        .catch((response) => {
+          console.log(response)
+          this.serverError()
+        })
+        .finally(() => {
+          this.hideLoading()
+        })
+    },
+    getDutyCalculateHistoryDetails (item) {
+      this.showLoading()
+      let data = {
+        pNid: item.NidFK,
+        pSysCiDutyType: 2,
+        pDutyYear: item.CI_DutyYear,
+        pNidSessionGroup: item.NidSessionGroup
+      }
+      this.$services.SB.getDutyCalculateHistoryDetails(data, { config: { District: this.baseNosaziCode.District } })
+        .then(async ({ data }) => {
+          this.historyDetailResult = this.getResponse(data)
+
+          if (this.historyResult.success) {
+            this.detailHistoryResults = this.historyDetailResult.data
+            if (
+              this.detailHistoryResults.DutySessionHistoryDetails.length > 0
+            ) {
+              this.list =
+                this.detailHistoryResults.DutySessionHistoryDetails.map((x) => {
+                  let arrayOfClsLog = converter.xml2json(x.CalculateLog, {
+                    compact: true,
+                    ignoreDoctype: true,
+                    ignoreCdata: true
+                  })
+                  const clsLog = JSON.parse(arrayOfClsLog)
+                  let logDetail = []
+                  logDetail = clsLog.ArrayOfClsLog.ClsLog
+                  if (
+                    typeof logDetail === "object" &&
+                    logDetail.length === undefined
+                  ) {
+                    logDetail = [logDetail]
+                  }
+                  if (clsLog.ArrayOfClsLog.ClsLog) {
+                    logDetail = logDetail.map((x) => {
+                      return {
+                        ...x,
+                        Subject: x.Subject._text || "",
+                        Value: x.Value._text || "",
+                        Comment: x.Comment._text || ""
+                      }
+                    })
+                  }
+                  return { ...x, expanded: false, logDetail: logDetail }
+                })
+            }
+            await this.log({
+              action: this.logActions.view,
+              bizCode: '',
+              bizCodeTitle: '',
+              saveDesc: `بارگذاری اطلاعات در فرم ${this.title} انجام گردید.`
+            })
+          }
+        })
+        .catch((response) => {
+          console.log(response)
+          this.serverError()
+        })
+        .finally(() => {
+          this.hideLoading()
+        })
+    },
+    showDetailList (detail) {
+      this.showDetailsDialog = true
+      this.getDutyCalculateHistoryDetails(detail)
+    }
+  }
+}
+</script>

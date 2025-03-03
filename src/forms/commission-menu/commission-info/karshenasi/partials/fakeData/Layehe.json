@@ -1,0 +1,495 @@
+{
+  "Envelope": {
+    "Body": {
+      "GetBillFineResponse": {
+        "GetBillFineResult": {
+          "BillFine": {
+            "ComLayehe": {
+              "Address": "ونک -حقاني",
+              "AreaAfterEdit": 49,
+              "BuildingStep": "",
+              "BuildingType": "",
+              "BusyAreaMojaz": 70,
+              "ComLayehe_Base_Front_Parvaneh": "",
+              "ComLayehe_Base_ParkingRequirement": "",
+              "ComLayehe_Base_ParkingRequirementInDensity": "",
+              "ComLayehe_Base_Using_Parvaneh": "",
+              "ComLayehe_ShahrdariLicence": {
+                "ClsDtoComLayehe_ShahrdariLicence": {
+                  "LicenceDate": "",
+                  "LicenceNo": "",
+                  "LicenceType": "پايانکار"
+                }
+              },
+              "ComLayehe_TakhalofatSharsazi": "",
+              "ComLayehe_UsingMojazInLastLicence": {
+                "ClsDtoComLayehe_UsingMojazInLastLicence": [
+                  {
+                    "FloorType": "همكف",
+                    "Height": 0,
+                    "UsingArea": 100,
+                    "UsingType": "بهداشتي-درماني",
+                    "Vahed": 1
+                  },
+                  {
+                    "FloorType": "طبقه اول",
+                    "Height": 0,
+                    "UsingArea": 200,
+                    "UsingType": "تجاري",
+                    "Vahed": 2
+                  },
+                  {
+                    "FloorType": "طبقه اول",
+                    "Height": 0,
+                    "UsingArea": 500,
+                    "UsingType": "صنعتی",
+                    "Vahed": 1
+                  },
+                  {
+                    "FloorType": "طبقه دوم",
+                    "Height": 0,
+                    "UsingArea": 400,
+                    "UsingType": "اداري",
+                    "Vahed": 1
+                  },
+                  {
+                    "FloorType": "طبقه سوم",
+                    "Height": 0,
+                    "UsingArea": 100,
+                    "UsingType": "مسکوني",
+                    "Vahed": 1
+                  },
+                  {
+                    "FloorType": "جمع",
+                    "Height": 0,
+                    "UsingArea": 400,
+                    "UsingType": "اداري",
+                    "Vahed": 1
+                  },
+                  {
+                    "FloorType": "جمع",
+                    "Height": 0,
+                    "UsingArea": 100,
+                    "UsingType": "بهداشتي-درماني",
+                    "Vahed": 1
+                  },
+                  {
+                    "FloorType": "جمع",
+                    "Height": 0,
+                    "UsingArea": 200,
+                    "UsingType": "تجاري",
+                    "Vahed": 2
+                  },
+                  {
+                    "FloorType": "جمع",
+                    "Height": 0,
+                    "UsingArea": 500,
+                    "UsingType": "صنعتی",
+                    "Vahed": 1
+                  },
+                  {
+                    "FloorType": "جمع",
+                    "Height": 0,
+                    "UsingArea": 100,
+                    "UsingType": "مسکوني",
+                    "Vahed": 1
+                  }
+                ]
+              },
+              "ComLayehe_UsingMojodInLastRevisit": {
+                "ClsDtoComLayehe_UsingMojodInLastRevisit": [
+                  {
+                    "FloorType": "ساختمان 10طبقه اول",
+                    "Height": 1,
+                    "OverOnArea": 0,
+                    "UsingArea": 1,
+                    "UsingType": "",
+                    "Vahed": 1
+                  },
+                  {
+                    "FloorType": "ساختمان 11طبقه اول",
+                    "Height": 1,
+                    "OverOnArea": 0,
+                    "UsingArea": 1,
+                    "UsingType": "",
+                    "Vahed": 1
+                  },
+                  {
+                    "FloorType": "ساختمان 1همكف",
+                    "Height": 0,
+                    "OverOnArea": 0,
+                    "UsingArea": 100,
+                    "UsingType": "مسکوني",
+                    "Vahed": 1
+                  },
+                  {
+                    "FloorType": "مجموع",
+                    "Height": 1,
+                    "OverOnArea": 0,
+                    "UsingArea": 2,
+                    "UsingType": "",
+                    "Vahed": 2
+                  },
+                  {
+                    "FloorType": "مجموع",
+                    "Height": 1,
+                    "OverOnArea": 0,
+                    "UsingArea": 100,
+                    "UsingType": "مسکوني",
+                    "Vahed": 1
+                  }
+                ]
+              },
+              "ComLayehe_Usings": {
+                "ClsDtoComLayehe_Usings": [
+                  {
+                    "BusyAreaCur": 0,
+                    "CurUsingArea": 0,
+                    "CurUsingType": "",
+                    "DiffArea": 0,
+                    "DiffUnitCount": 0,
+                    "FloorType": "زيرزمين2 و پايينتر",
+                    "LastLicenceUsingArea": 0,
+                    "LastLicenceUsingType": "",
+                    "MojazUnitCount": 0,
+                    "MojodUnitCount": 0,
+                    "SortCol": 0,
+                    "UnitCount": 0,
+                    "ZabetehArea": 0
+                  },
+                  {
+                    "BusyAreaCur": 0,
+                    "CurUsingArea": 0,
+                    "CurUsingType": "",
+                    "DiffArea": 0,
+                    "DiffUnitCount": 0,
+                    "FloorType": "زيرزمين اول",
+                    "LastLicenceUsingArea": 0,
+                    "LastLicenceUsingType": "",
+                    "MojazUnitCount": 0,
+                    "MojodUnitCount": 0,
+                    "SortCol": 1,
+                    "UnitCount": 0,
+                    "ZabetehArea": 0
+                  },
+                  {
+                    "BusyAreaCur": 0,
+                    "CurUsingArea": 0,
+                    "CurUsingType": "",
+                    "DiffArea": 0,
+                    "DiffUnitCount": 0,
+                    "FloorType": "نيم طبقه",
+                    "LastLicenceUsingArea": 0,
+                    "LastLicenceUsingType": "",
+                    "MojazUnitCount": 0,
+                    "MojodUnitCount": 0,
+                    "SortCol": 2,
+                    "UnitCount": 0,
+                    "ZabetehArea": 0
+                  },
+                  {
+                    "BusyAreaCur": 0,
+                    "CurUsingArea": 0,
+                    "CurUsingType": "",
+                    "DiffArea": 0,
+                    "DiffUnitCount": 0,
+                    "FloorType": "همکف",
+                    "LastLicenceUsingArea": 0,
+                    "LastLicenceUsingType": "",
+                    "MojazUnitCount": 0,
+                    "MojodUnitCount": 0,
+                    "SortCol": 3,
+                    "UnitCount": 0,
+                    "ZabetehArea": 0
+                  },
+                  {
+                    "BusyAreaCur": 2.081632,
+                    "CurUsingArea": 102,
+                    "CurUsingType": "اطاق,فروشگاه,مسکونی,",
+                    "DiffArea": -998,
+                    "DiffUnitCount": 0,
+                    "FloorType": "طبقه اول",
+                    "LastLicenceUsingArea": 1100,
+                    "LastLicenceUsingType": "اداری,بهداشتی درمانی,صنعتی,مسکونی,",
+                    "MojazUnitCount": 4,
+                    "MojodUnitCount": 4,
+                    "SortCol": 4,
+                    "UnitCount": 4,
+                    "ZabetehArea": 0
+                  },
+                  {
+                    "BusyAreaCur": 0,
+                    "CurUsingArea": 0,
+                    "CurUsingType": "",
+                    "DiffArea": -200,
+                    "DiffUnitCount": -5,
+                    "FloorType": "طبقه دوم",
+                    "LastLicenceUsingArea": 200,
+                    "LastLicenceUsingType": "تجاری,",
+                    "MojazUnitCount": 5,
+                    "MojodUnitCount": 0,
+                    "SortCol": 5,
+                    "UnitCount": 0,
+                    "ZabetehArea": 0
+                  },
+                  {
+                    "BusyAreaCur": 0,
+                    "CurUsingArea": 0,
+                    "CurUsingType": "",
+                    "DiffArea": 0,
+                    "DiffUnitCount": 0,
+                    "FloorType": "طبقه سوم",
+                    "LastLicenceUsingArea": 0,
+                    "LastLicenceUsingType": "",
+                    "MojazUnitCount": 0,
+                    "MojodUnitCount": 0,
+                    "SortCol": 6,
+                    "UnitCount": 0,
+                    "ZabetehArea": 0
+                  },
+                  {
+                    "BusyAreaCur": 0,
+                    "CurUsingArea": 0,
+                    "CurUsingType": "",
+                    "DiffArea": 0,
+                    "DiffUnitCount": 0,
+                    "FloorType": "طبقه چهارم",
+                    "LastLicenceUsingArea": 0,
+                    "LastLicenceUsingType": "",
+                    "MojazUnitCount": 0,
+                    "MojodUnitCount": 0,
+                    "SortCol": 7,
+                    "UnitCount": 0,
+                    "ZabetehArea": 0
+                  },
+                  {
+                    "BusyAreaCur": 0,
+                    "CurUsingArea": 0,
+                    "CurUsingType": "",
+                    "DiffArea": 0,
+                    "DiffUnitCount": 0,
+                    "FloorType": "طبقه پنجم",
+                    "LastLicenceUsingArea": 0,
+                    "LastLicenceUsingType": "",
+                    "MojazUnitCount": 0,
+                    "MojodUnitCount": 0,
+                    "SortCol": 8,
+                    "UnitCount": 0,
+                    "ZabetehArea": 0
+                  },
+                  {
+                    "BusyAreaCur": 0,
+                    "CurUsingArea": 0,
+                    "CurUsingType": "",
+                    "DiffArea": 0,
+                    "DiffUnitCount": 0,
+                    "FloorType": "طبقه ششم",
+                    "LastLicenceUsingArea": 0,
+                    "LastLicenceUsingType": "",
+                    "MojazUnitCount": 0,
+                    "MojodUnitCount": 0,
+                    "SortCol": 9,
+                    "UnitCount": 0,
+                    "ZabetehArea": 0
+                  },
+                  {
+                    "BusyAreaCur": 0,
+                    "CurUsingArea": 0,
+                    "CurUsingType": "",
+                    "DiffArea": 0,
+                    "DiffUnitCount": 0,
+                    "FloorType": "طبقه هفتم و بالاتر",
+                    "LastLicenceUsingArea": 0,
+                    "LastLicenceUsingType": "",
+                    "MojazUnitCount": 0,
+                    "MojodUnitCount": 0,
+                    "SortCol": 10,
+                    "UnitCount": 0,
+                    "ZabetehArea": 0
+                  },
+                  {
+                    "BusyAreaCur": 0,
+                    "CurUsingArea": 0,
+                    "CurUsingType": "",
+                    "DiffArea": 0,
+                    "DiffUnitCount": 0,
+                    "FloorType": "مساحت پيش آمدگيها",
+                    "LastLicenceUsingArea": 0,
+                    "LastLicenceUsingType": "",
+                    "MojazUnitCount": 0,
+                    "MojodUnitCount": 0,
+                    "SortCol": 11,
+                    "UnitCount": 0,
+                    "ZabetehArea": 0
+                  }
+                ]
+              },
+              "Comments": "",
+              "CurArea": 100,
+              "DocArea": 100,
+              "FloorCountMojaz": 4,
+              "LayeheNo": "",
+              "Mahdoode": "",
+              "MeghdarDarMasir": 45,
+              "MojazPlan": "طرح تفصیلی شارمند",
+              "MojazUsing": "مسکوني-سطح يک",
+              "MojazUsingID": "",
+              "MosavabPlan": "طرح تفصیلی شارمند",
+              "MosavabUsing": "مسکوني-سطح يک",
+              "MosavabUsingID": "",
+              "OwnerName": "",
+              "RegisterPlak": "",
+              "RequesterName": "",
+              "RevisitDate": "1399/09/05",
+              "RoofType": "بتونی اکسپوز (بتون نمایان)",
+              "SazehType": "خشت و آجر",
+              "SignUser": "",
+              "TarakomMojaz": 140,
+              "UrbanIdia": "",
+              "VahedCountMojaz": 6
+            },
+            "ErrorResult": {
+              "BizErrors": "",
+              "Requirements": ""
+            },
+            "TaskInfo": {
+              "ErrorResult": {
+                "BizErrors": "",
+                "Requirements": ""
+              },
+              "ListArchiveTemporaryShahrsazi": "",
+              "ListForms": "",
+              "ListTask": "",
+              "ListTask_ForFormula": {
+                "ClsTask.ClsDtoTask": [
+                  {
+                    "AssingTo": "fc832956-1175-49bb-9178-de25623e2e68",
+                    "AssingToUserName": "بازديد منطقه 1",
+                    "EumTaskStatus": 3,
+                    "NidSort": 2086100,
+                    "TaskArea": "شهرداري منطقه يک",
+                    "TaskCloseDate": "1399/09/04",
+                    "TaskCloseTime": "09:13",
+                    "TaskClosed": "8ab08af5-a140-4799-ac98-c53550793710",
+                    "TaskLogList": "",
+                    "TaskStartDate": "1399/09/04",
+                    "TaskStartTime": "09:12",
+                    "TaskTitel": "بازديد منطقه 1",
+                    "WorkflowStateName": "4bcee11c-d48f-493d-ac92-bd777f615cec"
+                  },
+                  {
+                    "AssingTo": "0d68ea18-c913-47b1-ac7a-f372c2cf9ac6",
+                    "AssingToUserName": "سميه ميرزامحمدي (سميه ميرزامحمدي)",
+                    "EumTaskStatus": 3,
+                    "NidSort": 2087369,
+                    "TaskArea": "شهرداري منطقه يک",
+                    "TaskCloseDate": "1400/03/29",
+                    "TaskCloseTime": "12:44",
+                    "TaskClosed": "5b9f736d-0698-4fb9-b20e-47c7ea4daf1d",
+                    "TaskLogList": "",
+                    "TaskStartDate": "1400/03/29",
+                    "TaskStartTime": "12:44",
+                    "TaskTitel": "دبيرخانه ماده صد منطقه 1",
+                    "WorkflowStateName": "49d16a96-93ee-4157-95bb-3cd8abe896f2"
+                  },
+                  {
+                    "AssingTo": "7967cdac-7286-4b09-b643-c764276a100e",
+                    "AssingToUserName": "اصغر بهنام زاده (اصغر بهنام زاده)",
+                    "EumTaskStatus": 3,
+                    "NidSort": 2086102,
+                    "TaskArea": "شهرداري منطقه يک",
+                    "TaskCloseDate": "1399/09/04",
+                    "TaskCloseTime": "09:17",
+                    "TaskClosed": "8ab08af5-a140-4799-ac98-c53550793710",
+                    "TaskLogList": "",
+                    "TaskStartDate": "1399/09/04",
+                    "TaskStartTime": "09:17",
+                    "TaskTitel": "مدير-معاون-ماده صد منطقه 1",
+                    "WorkflowStateName": "a1b41077-ed0a-485a-8000-6e92a722e687"
+                  },
+                  {
+                    "AssingTo": "0d68ea18-c913-47b1-ac7a-f372c2cf9ac6",
+                    "AssingToUserName": "سميه ميرزامحمدي (سميه ميرزامحمدي)",
+                    "EumTaskStatus": 0,
+                    "NidSort": 2087371,
+                    "TaskArea": "شهرداري منطقه يک",
+                    "TaskCloseDate": "",
+                    "TaskCloseTime": "",
+                    "TaskClosed": "00000000-0000-0000-0000-000000000000",
+                    "TaskLogList": "",
+                    "TaskStartDate": "1400/03/29",
+                    "TaskStartTime": "12:44",
+                    "TaskTitel": "دبيرخانه ماده صد منطقه 1",
+                    "WorkflowStateName": "49d16a96-93ee-4157-95bb-3cd8abe896f2"
+                  },
+                  {
+                    "AssingTo": "0d68ea18-c913-47b1-ac7a-f372c2cf9ac6",
+                    "AssingToUserName": "سميه ميرزامحمدي (سميه ميرزامحمدي)",
+                    "EumTaskStatus": 3,
+                    "NidSort": 2086105,
+                    "TaskArea": "شهرداري منطقه يک",
+                    "TaskCloseDate": "1400/03/29",
+                    "TaskCloseTime": "12:44",
+                    "TaskClosed": "5b9f736d-0698-4fb9-b20e-47c7ea4daf1d",
+                    "TaskLogList": "",
+                    "TaskStartDate": "1399/09/04",
+                    "TaskStartTime": "09:18",
+                    "TaskTitel": "دبيرخانه ماده صد منطقه 1",
+                    "WorkflowStateName": "49d16a96-93ee-4157-95bb-3cd8abe896f2"
+                  },
+                  {
+                    "AssingTo": "7967cdac-7286-4b09-b643-c764276a100e",
+                    "AssingToUserName": "اصغر بهنام زاده (اصغر بهنام زاده)",
+                    "EumTaskStatus": 3,
+                    "NidSort": 2086101,
+                    "TaskArea": "شهرداري منطقه يک",
+                    "TaskCloseDate": "1399/09/04",
+                    "TaskCloseTime": "09:17",
+                    "TaskClosed": "8ab08af5-a140-4799-ac98-c53550793710",
+                    "TaskLogList": "",
+                    "TaskStartDate": "1399/09/04",
+                    "TaskStartTime": "09:13",
+                    "TaskTitel": "مسئول شهرسازي ماده صد منطقه 1",
+                    "WorkflowStateName": "b19e33cb-1d71-41db-96f8-d0b48dbe3bcb"
+                  },
+                  {
+                    "AssingTo": "8ab08af5-a140-4799-ac98-c53550793710",
+                    "AssingToUserName": "منير مددي (MadadiM)",
+                    "EumTaskStatus": 3,
+                    "NidSort": 2086099,
+                    "TaskArea": "شهرداري منطقه يک",
+                    "TaskCloseDate": "1399/09/04",
+                    "TaskCloseTime": "09:12",
+                    "TaskClosed": "8ab08af5-a140-4799-ac98-c53550793710",
+                    "TaskLogList": "",
+                    "TaskStartDate": "1399/09/04",
+                    "TaskStartTime": "09:04",
+                    "TaskTitel": "اعلام مامور بازديد",
+                    "WorkflowStateName": "c96e3509-71b2-41b8-9c19-90aa9b5de72a"
+                  },
+                  {
+                    "AssingTo": "0d68ea18-c913-47b1-ac7a-f372c2cf9ac6",
+                    "AssingToUserName": "سميه ميرزامحمدي (سميه ميرزامحمدي)",
+                    "EumTaskStatus": 3,
+                    "NidSort": 2086103,
+                    "TaskArea": "شهرداري منطقه يک",
+                    "TaskCloseDate": "1399/09/04",
+                    "TaskCloseTime": "09:18",
+                    "TaskClosed": "8ab08af5-a140-4799-ac98-c53550793710",
+                    "TaskLogList": "",
+                    "TaskStartDate": "1399/09/04",
+                    "TaskStartTime": "09:17",
+                    "TaskTitel": "دبيرخانه ماده صد منطقه 1",
+                    "WorkflowStateName": "49d16a96-93ee-4157-95bb-3cd8abe896f2"
+                  }
+                ]
+              },
+              "NidProc": "00000000-0000-0000-0000-000000000000",
+              "WorkflowStateDeffList": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}

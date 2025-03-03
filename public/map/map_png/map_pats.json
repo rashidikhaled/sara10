@@ -1,0 +1,16 @@
+{
+  "کاربری ها": [
+    "KARBARI/_KARBARI_A1-MASKUNI-PL.png",
+    "KARBARI/_KARBARI_A2-MASKUNI VIZHE ATRAFE MADIHA-PL.png",
+    "KARBARI/_KARBARI_B1-TEJARI VIZHE BA ARZSH TARIKHI-PL.png",
+    "KARBARI/_KARBARI_C2-MASKUNI TEJARI KHADAMATI-PL.png"
+  ],
+  "زمین": [
+    "ert/_ERT_1-TABAGHE ROY ZIRZAMIN-PL.png",
+    {
+      "ert/_ERT_6-TABAGHE ROY PILOT-PL.png": {
+        "opacity": 0.5
+      }
+    }
+  ]
+}

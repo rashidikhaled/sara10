@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#616161}
+        </style>
+    </defs>
+    <g id="prefix__arrow-back" transform="translate(-30 -102)">
+        <g id="prefix__Ellipse_387" data-name="Ellipse 387" transform="translate(30 102)" style="fill:#fff;stroke:#616161">
+            <circle cx="16" cy="16" r="16" style="stroke:none"/>
+            <circle cx="16" cy="16" r="15.5" style="fill:none"/>
+        </g>
+        <g id="prefix__surface1" transform="translate(38 109.89)">
+            <path id="prefix__Path_11762" d="M14.2 27.824l4.6-6.385-1.238-1.719-5.837 8.1 5.837 8.1 1.238-1.719z" class="prefix__cls-2" data-name="Path 11762" transform="translate(-11.719 -19.719)"/>
+            <path id="prefix__Path_11763" d="M20 44h16.141v1.651H20z" class="prefix__cls-2" data-name="Path 11763" transform="translate(-18.291 -36.721)"/>
+        </g>
+    </g>
+</svg>

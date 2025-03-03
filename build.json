@@ -1,0 +1,13 @@
+{
+  "version": "3.2.48",
+  "workspaceName": "Esup",
+  "workspaceTitle": "ایساپ",
+  "workspaceId": "E577CFF0-99EF-4B93-B97E-697299F7161F",
+  "appName": "Sara10",
+  "appTitle": "سـامانه یـــکپــارچـه سرا 10",
+  "publicPath": "sara10",
+  "compatibility": {
+    "security": "4.0.36"
+  }
+}
+

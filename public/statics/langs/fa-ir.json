@@ -1,0 +1,189 @@
+{
+  "archive": {
+    "release_message":"لطفا رها کنید",
+    "refresh_message":"درحال بازآوری ...",
+    "pull_message":"بکشید",
+    "nofiles":"",//"اسنادی با این کد یافت نشد",
+    "yes": "بلی",
+    "no": "خیر",
+    "delete_question": "آیا برای حذف اطمینان دارید؟",
+    "search": "جستجو ... ",
+    "delete_title": "حذف {0} فایل",
+    "contextMenu": [
+      // {
+      //   "value":0,
+      //   "label": "ویرایش"
+      // },
+      {
+        "value":1,
+        "label": "< انتقال سند"
+      },
+      {
+        "value":2,
+        "label": "حذف سند"
+      },
+      {
+        "value":3,
+        "label": "انتخاب همه"
+      }
+      // {
+      //   "value":4,
+      //   "label": "جزئیات"
+      // }
+    ],
+    "filter": {
+      "image": "تصویر",
+      "movie": "فیلم",
+      "sound": "موسیقی",
+      "doc": "سند",
+      "hasAttachment": "ضمیمه دار",
+      "hasBackFile":"پشت صفحه"
+    },
+    "selectionMenu": {
+      "showSelected": "نمایش انتخاب شده ها",
+      "deleteSelected": "پاک کردن انتخاب ها"
+    },
+    "saveOrginalFile": "ذخیره با فرمت اصلی",
+    "selectFile": "انتخاب فایل",
+    "selectCamera": "انتخاب از دوربین",
+    "clearFiles": "پاک کردن",
+    "selectFolder": "انتخاب فولدر",
+    "pdfSize": {
+      "auto": "اتوماتیک",
+      "page-actual": "اندازه واقعی",
+      "page-fit": "اندازه عرض صفحه",
+      "page-width": "عرض صفحه"
+    }, 
+    "allowedFileColor" : [
+        {
+          "value":0,
+          "label": "هردو"
+        },
+        {
+          "value":1,
+          "label": "سیاه و سفید"
+        },
+        {
+          "value":2,
+          "label": "رنگی"
+        }
+      ],
+      "treeContextMenu" : [
+        {
+          "value":0,
+          "label": "ویرایش"
+        },
+        {
+          "value":1,
+          "label": "حذف"
+        },
+        {
+          "value":2,
+          "label": "درج"
+        }
+      ],
+      "emptyFolder": "هیچ فایلی وجود ندارد",
+      "publicSetting": "تنظیمات عمومی",
+      "isShared": "اشتراک گذاری",
+      "fileSetting": "تنظیمات فایل",
+      "fileSize": "اندازه فایل",
+      "allowedType": "فایل مجاز",
+      "pictureSetting": "تنظیمات تصویر",
+      "height": "طول",
+      "width": "عرض",
+      "pictureType": "نوع تصویر",
+      "allowedFields": "فیلدهای مجاز",
+      "keyTitle": "کلید",
+      "valueTitle": "عنوان",
+      "success": "موفقیت",
+      "error": "خطا",
+      "newRow": " + جدید",
+      "editTreeItems": "ویرایش ساختار درختی",
+      "save": "ذخیره",
+      "uploadFiles" :"درج فایل",
+      "allDocs": "همه اسناد",
+      "sort": {
+        "asc": "صعودی",
+        "desc": "نزولی"
+      },
+      "uploade_watting": "درحال ارسال",
+      "uploade_success": "موفقیت",
+      "uploade_paused": "متوقف",
+      "uploade_error": "خطا",
+      "preparingToPrint": " ... درحال آماده سازی برای چاپ",
+      "search_days" : [
+        {
+          "value":"",
+          "label": ""
+        },
+        {
+          "value":"1",
+          "label": "1 روز"
+        },
+        {
+          "value":"3",
+          "label": "3 روز"
+        },
+        {
+          "value":"7",
+          "label": "1 هفته"
+        },
+        {
+          "value":"14",
+          "label": "2 هفته"
+        },
+        {
+          "value":"31",
+          "label": "1 ماه"
+        },
+        {
+          "value":"62",
+          "label": "2 ماه"
+        },
+        {
+          "value":"186",
+          "label": "6 ماه"
+        },
+        {
+          "value":"365",
+          "label": "1 سال"
+        }
+      ],
+      "search_size" : [
+        {
+          "value":"",
+          "label": ""
+        },
+        {
+          "value":"gte",
+          "label": "بزرگتر از"
+        },
+        {
+          "value":"lte",
+          "label": "کوچکتر از"
+        }
+      ],
+      "search_FileType" : [
+        {
+          "value":"",
+          "label": ""
+        },
+        {
+          "value":"Image",
+          "label": "تصویر"
+        },
+        {
+          "value":"Movie",
+          "label": "فیلم"
+        },
+        {
+          "value":"Audio",
+          "label": "صوت"
+        },
+        {
+          "value":"Doc",
+          "label": "سند"
+        }
+      ]
+  }
+}

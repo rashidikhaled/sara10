@@ -1,0 +1,222 @@
+.task-line-items {
+  flex: 1 auto;
+  min-width: 120px;
+
+  .task-line {
+    height: 32px;
+    line-height: normal;
+    white-space: nowrap;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    position: relative;
+    padding: 4px;
+    flex: 1 auto;
+    margin: 2px 4px;
+
+    &:before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      background-color: #fff;
+      border-left: 1px solid #eee;
+      border-top: 1px solid #eee;
+      transform: rotate(-45deg) translateY(-50%);
+      left: -2px;
+      top: 50%;
+      position: absolute;
+      border-radius: 3px;
+      z-index: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.collapse-toggle {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.task-status {
+  width: 100%;
+  position: relative;
+  max-width: 100%;
+  min-width: 400px;
+
+  .task--item {
+    /*padding-left: 16px;*/
+
+    .task-avatar {
+      min-width: 28px;
+    }
+
+    .task--inner {
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      flex-grow: 1;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1;
+      margin: 4px 0;
+      padding: 0 10px;
+      border-radius: 3px;
+      border: 1px solid #cecece;
+      border-left: 5px solid #1d1d1d;
+      height: 34px;
+      transition: .15s transform ease, box-shadow .15s;
+      background-color: #fff;
+
+      &:before {
+        content: "";
+        width: 15px;
+        position: absolute;
+        top: 15px;
+        height: 44px;
+        z-index: 0;
+        border: 2px solid #bbb;
+        left: -20px;
+        border-right: none;
+        transition: .15s all ease;
+      }
+
+      .safa-gridview.ag-theme-alpine.compact & {
+        margin: 3px 0;
+      }
+    }
+
+    &:first-child .task--inner {
+      margin-top: 4px;
+
+      .safa-gridview.ag-theme-alpine.compact & {
+        margin-top: 3px;
+      }
+    }
+
+    &:last-child .task--inner {
+      margin-bottom: 4px;
+
+      .safa-gridview.ag-theme-alpine.compact & {
+        margin-bottom: 3px;
+      }
+    }
+
+    &:last-child {
+      .task--inner:before {
+        display: none;
+      }
+    }
+
+    &.is-simple .task--inner {
+      border-style: dashed;
+      border-left-style: solid;
+      border-color: #aab3b7;
+    }
+
+    .task--inner:hover {
+      box-shadow: 1px 2px 10px rgba(0, 0, 0, .3);
+      transition: .15s transform ease, box-shadow .15s;
+    }
+
+    &.active .task--inner {
+      box-shadow: 1px 3px 8px rgba(0, 0, 0, .25);
+      font-weight: bold;
+    }
+  }
+}
+
+.more-task {
+  min-width: 24px;
+}
+
+.task--status-label {
+  font-size: 10px;
+  color: #202020;
+  padding: 0 4px;
+  min-width: 60px;
+  border-radius: 4px;
+}
+
+body.body--dark {
+  .task-status .task--item .task--inner {
+    background: var(--dark-page) !important;
+    border-color: var(--dark-border);
+    color: var(--text-color);
+  }
+
+  .task-line-items .task-line {
+    background: var(--dark-page);
+    border-color: var(--dark-border);
+
+    &:before {
+      background-color: var(--dark-page);
+      border-left: 1px solid var(--dark-border);
+      border-top: 1px solid var(--dark-border);
+    }
+  }
+}
+
+.safa-ribbon {
+  border-bottom: 0;
+}
+
+.request-num {
+  display: inline-block;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #2e629c;
+  position: relative;
+  max-width: 100%;
+  border: none;
+  border-top-width: initial;
+  background: none;
+
+  body.body--dark & {
+    color: var(--dark-text-color);
+  }
+}
+
+.bizcode {
+  margin: 0 auto;
+
+  > span {
+    display: inline-block;
+    min-width: 20px;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+    color: #585858;
+    position: relative;
+
+    body.body--dark & {
+      color: var(--dark-text-color);
+    }
+  }
+
+  > b {
+    font-size: 14px;
+    color: darkblue;
+
+    body.body--dark & {
+      color: #fff;
+    }
+  }
+
+  > *:nth-child(7),
+  > *:nth-child(1),
+  > *:nth-child(3),
+  > *:nth-child(5) {
+    color: darkblue;
+    font-weight: normal;
+
+    body.body--dark & {
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+export default {
+  Apartment: 0,
+  Block: 0,
+  Building: 0,
+  CI_City: 0,
+  CreateDate: '',
+  CreateTime: '',
+  DeleteDate: null,
+  DeleteTime: null,
+  DeletedID: 0,
+  DeletedNidUser: null,
+  DeletedUserName: null,
+  District: 0,
+  EumNosaziCodeGroup: 0,
+  EumNosaziCodeObjType: 0,
+  House: 0,
+  NidNosaziCode: '',
+  NidNosaziCode_Parent: '',
+  NidUser: '',
+  Region: 0,
+  Shop: 0,
+  UserName: ''
+}

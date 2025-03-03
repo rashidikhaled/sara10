@@ -1,0 +1,187 @@
+{
+  "archive": {
+    "yes": "Yes",
+    "no": "No",
+    "delete_question": "Are you sure you want delete?",
+    "search": "... Search",
+    "delete_title": "Delete {0} files",
+    "nofiles":"Not found",
+    "contextMenu": [
+      {
+        "value":0,
+        "label": "Edit"
+      },
+      {
+        "value":1,
+        "label": "< Transfer"
+      },
+      {
+        "value":2,
+        "label": "Delete"
+      },
+      {
+        "value":3,
+        "label": "Select all"
+      },
+      {
+        "value":4,
+        "label": "Details"
+      }
+    ],
+
+    "filter": {
+      "image": "Pictures",
+      "movie": "Movies",
+      "sound": "Music",
+      "doc": "Documents",
+      "hasAttachment": "Has Attachments",
+      "hasBackFile":"Has BackFile"
+    },
+    "selectionMenu": {
+      "showSelected": "Show all selected",
+      "deleteSelected": "Clear items"
+    },
+    "saveOrginalFile": "Save as orginal file",
+    "selectFile": "Select file",
+    "selectCamera": "Select from camera",
+    "clearFiles": "Clear List",
+    "selectFolder": "Select folder",
+    "pdfSize": {
+      "auto": "Auto",
+      "page-actual": "Page Actual",
+      "page-fit": "Page Fit",
+      "page-width": "Page Width"
+    }, 
+    "allowedFileColor" : [
+        {
+          "value":"0",
+          "label": "All"
+        },
+        {
+          "value":"1",
+          "label": "Grayscale"
+        },
+        {
+          "value":"2",
+          "label": "Colored"
+        }
+      ],
+      "treeContextMenu" : [
+        {
+          "value":0,
+          "label": "Edit"
+        },
+        {
+          "value":1,
+          "label": "Delete"
+        },
+        {
+          "value":2,
+          "label": "Add"
+        }
+      ],
+      "emptyFolder": "There is no file",
+      "publicSetting": "Public Setting",
+      "isShared": "Share",
+      "fileSetting": "File Setting",
+      "fileSize": "Size Of File",
+      "allowedType": "Allowed Type",
+      "pictureSetting": "Picture Setting",
+      "height": "Height",
+      "width": "Width",
+      "pictureType": "Picture Type",
+      "allowedFields": "Allowed Fields",
+      "keyTitle": "Key",
+      "valueTitle": "Title",
+      "success": "Success",
+      "error": "Error",
+      "newRow": " + New",
+      "editTreeItems": "Edit Tree",
+      "save": "Save",
+      "uploadFiles" :"Upload Files",
+      "allDocs": "All",
+      "sort": {
+        "asc": "Ascending",
+        "desc": "Descending"
+      },
+      "uploade_watting": "Watting",
+      "uploade_success": "Success",
+      "uploade_paused": "Paused",
+      "uploade_error": "Error",
+      "preparingToPrint": "Preparing to print ...",
+      "search_days" : [
+        {
+          "value":"",
+          "label": ""
+        },
+        {
+          "value":"1",
+          "label": "1 day"
+        },
+        {
+          "value":"3",
+          "label": "3 days"
+        },
+        {
+          "value":"7",
+          "label": "1 weak"
+        },
+        {
+          "value":"14",
+          "label": "2 weaks"
+        },
+        {
+          "value":"31",
+          "label": "1 month"
+        },
+        {
+          "value":"62",
+          "label": "2 months"
+        },
+        {
+          "value":"186",
+          "label": "6 months"
+        },
+        {
+          "value":"365",
+          "label": "1 year"
+        }
+      ],
+      "search_size" : [
+        {
+          "value":"",
+          "label": ""
+        },
+        {
+          "value":"gte",
+          "label": "grater than"
+        },
+        {
+          "value":"lte",
+          "label": "less than"
+        }
+      ],
+      "search_FileType" : [
+        {
+          "value":"",
+          "label": ""
+        },
+        {
+          "value":"Image",
+          "label": "Images"
+        },
+        {
+          "value":"Movie",
+          "label": "Movies"
+        },
+        {
+          "value":"Audio",
+          "label": "Audios"
+        },
+        {
+          "value":"Doc",
+          "label": "Docs"
+        }
+      ]
+  }
+}

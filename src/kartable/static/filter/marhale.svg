@@ -1,0 +1,13 @@
+<svg id="marhale" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Group_1066" data-name="Group 1066">
+    <g id="Group_1065" data-name="Group 1065">
+      <path id="Path_1352" data-name="Path 1352" d="M7,3H8V2H7V0H0V5H7ZM6,4H1V1H6Z" fill="#646464"/>
+      <path id="Path_1353" data-name="Path 1353" d="M257,354h-1v1h1v2h7v-5h-7Zm1-1h5v3h-5Z" transform="translate(-248 -341)" fill="#646464"/>
+      <path id="Path_1354" data-name="Path 1354" d="M356,67.25a2.25,2.25,0,0,1-2.25,2.25h-.25v1h.25a3.25,3.25,0,0,0,0-6.5H352v1h1.75A2.252,2.252,0,0,1,356,67.25Z" transform="translate(-341 -62)" fill="#646464"/>
+      <rect id="Rectangle_1965" data-name="Rectangle 1965" width="1" height="1" transform="translate(9 2)" fill="#646464"/>
+      <path id="Path_1355" data-name="Path 1355" d="M149.707,172.583H151v-1h-1.293l-2.207-2.207-2.207,2.207H144v1h1.293l2.207,2.207ZM147.5,170.79l1.293,1.293-1.293,1.293-1.293-1.293Z" transform="translate(-139.5 -164.083)" fill="#646464"/>
+      <path id="Path_1356" data-name="Path 1356" d="M1,243.25A2.25,2.25,0,0,1,3.25,241H3.5v-1H3.25a3.25,3.25,0,1,0,0,6.5H5v-1H3.25A2.253,2.253,0,0,1,1,243.25Z" transform="translate(0 -232.5)" fill="#646464"/>
+      <rect id="Rectangle_1966" data-name="Rectangle 1966" width="1" height="1" transform="translate(6 13)" fill="#646464"/>
+    </g>
+  </g>
+</svg>

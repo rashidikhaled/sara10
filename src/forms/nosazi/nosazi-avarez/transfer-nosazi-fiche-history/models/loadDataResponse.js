@@ -1,0 +1,35 @@
+export default {
+  'Base_AddressInfo': null,
+  'Base_CommonEstate': null,
+  'Base_Owner': null,
+  'DeletedDutyFiches': null,
+  'DutyCanceledFicheSub': null,
+  'DutyCanceledFiches': null,
+  'DutyConfirmFichesFromView': null,
+  'DutyFicheSub': null,
+  'DutyFicheSubForJob': null,
+  'DutyFiches': null,
+  'DutyFichesPayCount': null,
+  'DutyPaymentFicheSub': null,
+  'Duty_CanceledFicheByBillID': null,
+  'Duty_FicheByBarcode': null,
+  'Duty_FicheByBillID': null,
+  'Duty_FicheByFicheNo': null,
+  'Duty_TransferFicheLogList': null,
+  'ErrorResult': {
+    'BizErrors': [
+      {
+        'ErrorAction': 0,
+        'ErrorKey': '',
+        'ErrorTitel': ''
+      }
+    ],
+    'Requirements': []
+  },
+  'FicheResult': null,
+  'IsExportOK': false,
+  'IsTransferOK': false,
+  'NidFicheList': null,
+  'StrCode': '',
+  'TransferFicheCount': 0
+}

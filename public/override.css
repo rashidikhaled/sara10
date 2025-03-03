@@ -1,0 +1,35 @@
+:root {
+  --q-color-primary: #005be2;
+  --q-color-secondary: #6358ee;
+  --q-color-accent: #188038;
+  --q-color-positive: #1db954;
+  --q-color-negative: #c3c3c3;
+  --q-color-dark: #1D1D1D;
+  --q-color-black: #373737;
+  --q-color-info: #34b7f1;
+  --q-color-warning: #e37400;
+  --text-size: 11px;
+
+  /*****************************/
+  /*نوسازی موردی*/
+
+  /*تسویه*/
+  --nosazi-status-resolve-debt-bg: #f5d6d5;
+  --nosazi-status-resolve-debt-border: #d74141;
+  --nosazi-status-resolve-debt-label-bg: #cc324a;
+  --nosazi-status-resolve-debt-label-color: #ffebeb;
+
+  /*قطعیت*/
+  --nosazi-status-sure-bg: #ccebc4;
+  --nosazi-status-sure-border: #2eb264;
+  --nosazi-status-sure-label-bg: #01a24e;
+  --nosazi-status-sure-label-color: #ecfaf3;
+
+  /*عدم قطعیت*/
+  --nosazi-status-not-sure-bg: #f9f9f9;
+  --nosazi-status-not-sure-border: #ffc107;
+  --nosazi-status-not-sure-label-bg: #ffe186;
+  --nosazi-status-not-sure-label-color: #000;
+
+  /*****************************/
+}

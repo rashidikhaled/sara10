@@ -1,0 +1,218 @@
+
+
+.changeset-viewer {
+  width: 1200px;
+  max-width: 100%;
+  padding: 8px 10px;
+  
+  .clog--item {
+    position: relative;
+    border-left: 1px dotted #bbb;
+
+    > h2 {
+      margin: 0;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: normal;
+      padding: 7px 10px 7px 30px;
+      position: relative;
+
+      &:before {
+        content: "";
+        border-bottom: 1px dotted #bbb;
+        width: 20px;
+        position: absolute;
+        left: 0;
+        top: 17px;
+      }
+    }
+
+    .clog--details {
+      padding: 7px 10px 7px 30px;
+
+      .clog--text {
+        display: flex;
+        width: 100%;
+        align-items: normal;
+        direction: ltr;
+        white-space: normal;
+        text-align: justify;
+
+        .clog--old,
+        .clog--new {
+          min-height: 30px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          min-width: 100px;
+          margin: 0 5px;
+          font-size: 12px;
+          border-radius: 4px;
+          padding: 0 10px;
+        }
+
+        .clog--old {
+          background-color: #ffe4e4;
+        }
+
+        .clog--new {
+          background-color: #ceffd6;
+        }
+      }
+    }
+  }
+
+  table.clog--table {
+    min-width: 100px;
+    max-width: 100%;
+    border-radius: 1px;
+    border-collapse: collapse;
+    border: 1px solid #dee0e5;
+
+    tr {
+      height: auto;
+
+      th {
+        padding: 7px;
+        min-width: 100px;
+        width: fit-content;
+        background-color: #f8f8f8;
+        color: #181d1f;
+        font-weight: 500;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border-bottom: 1px solid #dee0e5;
+        position: relative;
+        text-align: left;
+        font-size: 11px;
+
+        &:after {
+          content: "";
+          width: 1px;
+          height: 12px;
+          position: absolute;
+          background: #dee0e5;
+          right: 0;
+          top: 12px;
+        }
+
+        &:last-child:after {
+          display: none;
+        }
+      }
+
+      td {
+        padding: 2px;
+        height: auto;
+        border-left: 1px solid #dee0e5;
+
+        // &:nth-child(2) {
+        //   border-left: none;
+        // }
+      }
+
+      &.log-status-1 {
+        background-color: #fbfddb;
+      }
+
+      .log--value {
+        display: flex;
+        align-items: center;
+        min-height: 30px;
+        min-width: 100px;
+        width: 100%;
+
+        > span {
+          width: 100%;
+          padding: 6px;
+          min-height: 30px;
+          text-align: center;
+          margin: 0 2px;
+          min-width: max-content;
+        }
+        .log--value-gray {
+          background-color: #ffe4e4;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 40px;
+          // border: 1px solid #cea5a5;
+        }
+        .log--value-old {
+          background-color: #ffe4e4;
+          // border: 1px solid #cea5a5;
+        }
+        .log--value-new {
+          background-color: #ceffd6;
+          // border: 1px solid #4ec562;
+        }
+        .log--value-unchanged {
+          background-color: transparent;
+          // border: 1px solid #4ec562;
+        }
+      }
+    }
+  }
+
+  #detailgrid > table > thead > tr > th:last-child {
+    width: auto;
+  }
+
+  .changeset-viewer-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .changeset-viewer table.clog--table tr .log--value .log--value-new > div > span {
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    max-width: 100px;
+    overflow: hidden;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}
+
+.details-tree {
+  padding: 0 10px;
+  background-color: #e3edf7;
+  /* color: #fff; */
+  line-height: 22px;
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  overflow: auto;
+  max-height: 300px;
+}
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.q-item__section--side {
+  padding-right: 16px;
+  padding-left: 0;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.txtSecondSection {
+  display: flex;
+}

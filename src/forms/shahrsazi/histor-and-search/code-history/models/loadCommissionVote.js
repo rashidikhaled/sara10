@@ -1,0 +1,23 @@
+export default {
+  Base_Owner: null,
+  CommissionExecVote: null,
+  CommissionList_InNidNosaziCode: null,
+  CommissionList_InNidProc: null,
+  CommissionVoteList_InNidNosaziCode: null,
+  Commission_Appose: [],
+  Commission_ArchiveDomain: 'Commission',
+  Commission_ArchiveRoot: 'DA3D1C38-F38E-45D5-AAD6-B36DC55D0E6E',
+  Commission_Info: {},
+  Commission_Members: [],
+  Commission_Status: 'ارسال به شهرسازی',
+  Commission_Status_English: 'SentToShahrsazi',
+  Commission_Trepass: [],
+  Commission_Trepass_All: null,
+  Commission_Vote: [],
+  Commission_Vote_All: null,
+  ErrorResult: {},
+  FormulaErrorCode: 0,
+  IsAnyCommisionInNosaziCode_: false,
+  _NidCommission: 'bb4fe876-1fb2-49ea-b5c4-3f16dea4ffc5',
+  _NidProc: '00000000-0000-0000-0000-000000000000'
+}

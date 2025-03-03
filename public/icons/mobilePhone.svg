@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="41.103" viewBox="0 0 24 41.103">
+    <defs>
+        <style>
+            .cls-1{fill:#535353}
+        </style>
+    </defs>
+    <g id="surface1" transform="translate(-407.861 -626)">
+        <path id="Path_359" d="M123.85 2.569S124.706 0 111.862 0 99.873 2.569 99.873 2.569v35.964s-.856 2.567 11.989 2.567 11.988-2.569 11.988-2.569zm-11.988-.856a.808.808 0 0 1 .856.856.856.856 0 0 1-1.713 0 .808.808 0 0 1 .857-.856zm3.425 35.964h-6.85v-1.713h6.85zm6.85-3.425h-20.551V5.138h20.551z" class="cls-1" data-name="Path 359" transform="translate(308 626)"/>
+    </g>
+</svg>

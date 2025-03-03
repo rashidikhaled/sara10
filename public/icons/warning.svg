@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <g id="prefix__surface1" transform="translate(7.093 .455)">
+        <circle id="prefix__Icon_BG" cx="30" cy="30" r="30" data-name="Icon BG" transform="translate(-7.093 -.455)" style="fill:#d6e0fd"/>
+        <path id="prefix__Path_11462" d="M14.813 33.984a.594.594 0 00-.431.3L-.012 59.213a.6.6 0 00.525.9H29.3a.6.6 0 00.525-.9L15.432 34.284a.6.6 0 00-.619-.3zm.094 1.8l13.345 23.129H1.562zm-.693 7.479a.19.19 0 00-.206.206v8.678a.2.2 0 00.206.225H15.6a.2.2 0 00.206-.225v-8.679a.19.19 0 00-.206-.206zM14.083 54.1a.2.2 0 00-.112.206v1.574a.19.19 0 00.206.206h1.462a.19.19 0 00.206-.206V54.3a.19.19 0 00-.206-.206h-1.463a.312.312 0 00-.093.006z" data-name="Path 11462" transform="translate(8.093 -19.977)" style="fill:#5b7bd6"/>
+    </g>
+</svg>

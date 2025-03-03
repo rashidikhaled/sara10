@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+  <title>سـامانه یـــکپــارچـه سرا 10</title>
+  <!--
+
+  ░██████╗░█████╗░███████╗░█████╗░██████╗░░█████╗░██╗░░░██╗░█████╗░███╗░░██╗███████╗██╗░░██╗░░░░█████╗░░█████╗░███╗░░░███╗
+  ██╔════╝██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔══██╗╚██╗░██╔╝██╔══██╗████╗░██║██╔════╝██║░░██║░░░██╔══██╗██╔══██╗████╗░████║
+  ╚█████╗░███████║█████╗░░███████║██████╔╝███████║░╚████╔╝░███████║██╔██╗██║█████╗░░███████║░░░██║░░╚═╝██║░░██║██╔████╔██║
+  ░╚═══██╗██╔══██║██╔══╝░░██╔══██║██╔══██╗██╔══██║░░╚██╔╝░░██╔══██║██║╚████║██╔══╝░░██╔══██║░░░██║░░██╗██║░░██║██║╚██╔╝██║
+  ██████╔╝██║░░██║██║░░░░░██║░░██║██║░░██║██║░░██║░░░██║░░░██║░░██║██║░╚███║███████╗██║░░██║██╗╚█████╔╝╚█████╔╝██║░╚═╝░██║
+  ╚═════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝╚═╝░╚════╝░░╚════╝░╚═╝░░░░░╚═╝
+
+  -->
+  <meta charset="utf-8"/>
+  <meta
+    content="<%= htmlWebpackPlugin.options.productDescription %>"
+    name="description"
+  />
+
+  <script>window.getConfigValue = function (x, y) {
+    return {}
+  }</script>
+  <link rel="preload" as="fetch" href="web.config.dat" />
+  <link rel="preload" as="script" href="translates.js" />
+
+  <meta name="robots" content="noindex, nofollow"/>
+  <meta name="color-scheme" content="light dark"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="msapplication-tap-highlight" content="no"/>
+  <meta content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" name="viewport"/>
+  <link href="images/128x128.png" rel="icon" sizes="128x128" type="image/png"/>
+  <link href="images/16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link href="images/32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="images/96x96.png" rel="icon" sizes="96x96" type="image/png"/>
+  <script src="translates.js"></script>
+  <!--  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>-->
+  <style>
+    /* fallback */
+    @font-face {
+      font-family: 'Material Icons';
+      font-style: normal;
+      font-weight: 400;
+      src: url(fonts/icons.woff2) format('woff2');
+    }
+
+    .material-icons {
+      font-family: 'Material Icons';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+    }
+  </style>
+  <link href="images/favicon.ico" rel="icon" type="image/ico"/>
+
+  <script type="text/javascript" src="security/proj4js_2.8.0_proj4.js"></script>
+<!--  <script src="security/turf.min.js"></script>-->
+  <script src="security/shp2geojson.js_lib_jszip.js?p=22"></script>
+  <script src="security/shp2geojson.js_lib_jszip-utils.js?p=22"></script>
+
+  <script src="security/shp2geojson.js_preprocess.js?p=22"></script>
+  <script src="security/shp2geojsonjs_preview.js?p=22"></script>
+  <script type="text/javascript">
+    proj4.defs('EPSG:32640', '+proj=utm +zone=40 +datum=WGS84 +units=m +no_defs +type=crs')
+    proj4.defs('EPSG:4326', '+proj=longlat +datum=WGS84 +no_defs +type=crs')
+  </script>
+  <link href=override.css rel=stylesheet />
+  <!-- postjs-->
+</head>
+<body id="body">
+<div id="q-app"></div>
+</body>
+</html>

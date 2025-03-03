@@ -1,0 +1,23 @@
+export default {
+  Apartment_Momayezi: 0,
+  Apartment_Parvandeh: 0,
+  Block_Momayezi: 0,
+  Block_Parvandeh: 0,
+  Building_Momayezi: 0,
+  Building_Parvandeh: 0,
+  CI_City_Momayezi: 0,
+  CI_City_Parvandeh: 0,
+  District_Momayezi: 0,
+  District_Parvandeh: 0,
+  House_Momayezi: 0,
+  House_Parvandeh: 0,
+  Region_Momayezi: 0,
+  Region_Parvandeh: 0,
+  Shop_Momayezi: 0,
+  Shop_Parvandeh: 0,
+  TableCount: 0,
+  NidNosaziCode_Momayezi: '',
+  NidNosaziCode_Parvandeh: '',
+  NosaziCode_Momayezi: '',
+  NosaziCode_Parvandeh: ''
+}

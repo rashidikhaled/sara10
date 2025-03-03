@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__arrow-right-red" transform="translate(-1084 -218)">
+        <g id="prefix__Ellipse_389" data-name="Ellipse 389" transform="translate(1084 218)" style="fill:#d4077b;stroke:#d4077b">
+            <circle cx="11.5" cy="11.5" r="11.5" style="stroke:none"/>
+            <circle cx="11.5" cy="11.5" r="11" style="fill:none"/>
+        </g>
+        <path id="prefix__Path_13586" d="M5.652 4.453L1.2 0 0 1.2l5.652 5.652L11.3 1.2 10.106 0z" class="prefix__cls-2" data-name="Path 13586" transform="rotate(-90 665.368 -429.658)"/>
+        <path id="prefix__Path_13587" d="M1.6 12.792V0H0v12.792z" class="prefix__cls-2" data-name="Path 13587" transform="rotate(-90 659.144 -428.287)"/>
+    </g>
+</svg>
